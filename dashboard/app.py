@@ -321,7 +321,6 @@ with tab2:
             result = load_demo_data()
             st.success(result["message"])
             st.rerun()
-        st.stop()
 
     # Sub-tabs
     ci_tab1, ci_tab2, ci_tab3, ci_tab4 = st.tabs([
