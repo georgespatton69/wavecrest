@@ -6,6 +6,11 @@ token.json
 # Temporary files
 .tmp/
 
+# Database and uploads (operational data, not code)
+data/wavecrest.db
+data/exports/
+data/uploads/
+
 # Python
 __pycache__/
 *.pyc
