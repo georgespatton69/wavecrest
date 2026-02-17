@@ -307,6 +307,31 @@ def check_database(conn):
         print(f"  {name}: {count} rows")
 
 
+def seed_scripts_from_json(conn):
+    """Load scripts from seed JSON if scripts table is empty."""
+    import json
+    count = conn.execute("SELECT COUNT(*) FROM scripts").fetchone()[0]
+    if count > 0:
+        print(f"Scripts table already has {count} rows, skipping seed.", flush=True)
+        return
+
+    seed_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seed_scripts.json")
+    if not os.path.exists(seed_file):
+        print(f"No seed_scripts.json found, skipping.", flush=True)
+        return
+
+    with open(seed_file) as f:
+        scripts = json.load(f)
+
+    for s in scripts:
+        conn.execute(
+            "INSERT INTO scripts (title, body, script_type, status, notes, pillar_id) VALUES (?, ?, ?, ?, ?, ?)",
+            [s["title"], s["body"], s["script_type"], s["status"], s.get("notes"), s.get("pillar_id")],
+        )
+    conn.commit()
+    print(f"Seeded {len(scripts)} scripts.", flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Initialize the Wavecrest database")
     parser.add_argument("--seed", action="store_true", help="Insert seed data")
@@ -319,6 +344,7 @@ def main():
     conn = get_connection()
     try:
         create_tables(conn)
+        seed_scripts_from_json(conn)
         if args.seed:
             seed_data(conn)
         if args.check:
@@ -326,7 +352,7 @@ def main():
     finally:
         conn.close()
 
-    print(f"\nDatabase location: {DB_PATH}")
+    print(f"\nDatabase location: {DB_PATH}", flush=True)
 
 
 if __name__ == "__main__":
