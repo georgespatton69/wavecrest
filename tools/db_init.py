@@ -333,7 +333,7 @@ def seed_scripts_from_json(conn):
 
 
 def seed_competitors_from_json(conn):
-    """Load competitors and posts from seed JSON. Refreshes data on each deploy."""
+    """Merge competitors and posts from seed JSON. Keeps data added on the live site."""
     import json
 
     seed_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seed_competitors.json")
@@ -344,34 +344,50 @@ def seed_competitors_from_json(conn):
     with open(seed_file) as f:
         data = json.load(f)
 
-    # Clear existing competitor data and reload from seed
-    conn.execute("DELETE FROM competitor_posts")
-    conn.execute("DELETE FROM competitor_snapshots")
-    conn.execute("DELETE FROM competitors")
-
-    # Insert competitors and build ID map
+    # Merge competitors: add new ones by handle, skip existing
     id_map = {}
+    added_comps = 0
     for i, c in enumerate(data["competitors"], start=1):
-        cursor = conn.execute(
-            "INSERT INTO competitors (name, handle, platform, profile_url, notes) VALUES (?, ?, ?, ?, ?)",
-            [c["name"], c["handle"], c["platform"], c.get("profile_url"), c.get("notes")],
-        )
-        id_map[i] = cursor.lastrowid
+        existing = conn.execute(
+            "SELECT id FROM competitors WHERE handle = ?", [c["handle"]]
+        ).fetchone()
+        if existing:
+            id_map[i] = existing[0]
+        else:
+            cursor = conn.execute(
+                "INSERT INTO competitors (name, handle, platform, profile_url, notes) VALUES (?, ?, ?, ?, ?)",
+                [c["name"], c["handle"], c["platform"], c.get("profile_url"), c.get("notes")],
+            )
+            id_map[i] = cursor.lastrowid
+            added_comps += 1
 
-    # Insert posts with mapped competitor IDs
+    # Merge posts: add new ones by post_url, skip duplicates
+    added_posts = 0
     for p in data["posts"]:
         new_comp_id = id_map.get(p["competitor_id"], p["competitor_id"])
+        post_url = p.get("post_url")
+        # Skip if this post_url already exists for this competitor
+        if post_url:
+            existing = conn.execute(
+                "SELECT id FROM competitor_posts WHERE competitor_id = ? AND post_url = ?",
+                [new_comp_id, post_url],
+            ).fetchone()
+            if existing:
+                continue
         conn.execute(
             "INSERT INTO competitor_posts (competitor_id, post_url, posted_at, content_type, caption_snippet, "
             "likes, comments, estimated_engagement_rate, content_theme, notes, is_notable) "
             "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
-            [new_comp_id, p.get("post_url"), p.get("posted_at"), p.get("content_type"),
+            [new_comp_id, post_url, p.get("posted_at"), p.get("content_type"),
              p.get("caption_snippet"), p.get("likes", 0), p.get("comments", 0),
              p.get("estimated_engagement_rate"), p.get("content_theme"), p.get("notes"),
              p.get("is_notable", 0)],
         )
+        added_posts += 1
     conn.commit()
-    print(f"Loaded {len(data['competitors'])} competitors and {len(data['posts'])} posts from seed.", flush=True)
+    total_comps = conn.execute("SELECT COUNT(*) FROM competitors").fetchone()[0]
+    total_posts = conn.execute("SELECT COUNT(*) FROM competitor_posts").fetchone()[0]
+    print(f"Competitors: {total_comps} total ({added_comps} new). Posts: {total_posts} total ({added_posts} new).", flush=True)
 
 
 def main():
