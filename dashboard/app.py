@@ -77,6 +77,16 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+# Simple API endpoint for local sync (before auth gate)
+_api_params = st.query_params
+if _api_params.get("api") == "competitors":
+    _api_key = os.getenv("SYNC_API_KEY", "")
+    if _api_key and _api_params.get("key") == _api_key:
+        _comps = execute_query("SELECT name, handle, platform, profile_url, notes FROM competitors ORDER BY name")
+        import json as _json
+        st.text(_json.dumps(_comps))
+        st.stop()
+
 # Auth gate
 if not check_password():
     st.stop()
