@@ -90,9 +90,14 @@ def scrape_all(max_posts=10):
 
 
 def export_to_json():
-    """Export competitor data from local DB to seed JSON."""
+    """Export competitor data from local DB to seed JSON.
+
+    Remaps DB competitor IDs to 1-based seed array positions so that
+    seed_competitors_from_json() can match posts to competitors on a
+    fresh Railway database where IDs start at 1.
+    """
     competitors = execute_query(
-        "SELECT name, handle, platform, profile_url, notes FROM competitors ORDER BY id"
+        "SELECT id, name, handle, platform, profile_url, notes FROM competitors ORDER BY id"
     )
     posts = execute_query(
         "SELECT competitor_id, post_url, posted_at, content_type, caption_snippet, "
@@ -100,12 +105,24 @@ def export_to_json():
         "FROM competitor_posts ORDER BY id"
     )
 
-    data = {"competitors": competitors, "posts": posts}
+    # Build mapping: real DB id → 1-based seed index
+    id_map = {}
+    for i, c in enumerate(competitors, start=1):
+        id_map[c["id"]] = i
+
+    # Remap post competitor_ids to seed indices
+    for p in posts:
+        p["competitor_id"] = id_map.get(p["competitor_id"], p["competitor_id"])
+
+    # Strip the DB id from competitor dicts (seed only needs name/handle/etc)
+    seed_comps = [{k: v for k, v in c.items() if k != "id"} for c in competitors]
+
+    data = {"competitors": seed_comps, "posts": posts}
 
     with open(SEED_FILE, "w") as f:
         json.dump(data, f, indent=2)
 
-    print(f"Exported {len(competitors)} competitors and {len(posts)} posts to seed_competitors.json")
+    print(f"Exported {len(seed_comps)} competitors and {len(posts)} posts to seed_competitors.json")
     return data
 
 
