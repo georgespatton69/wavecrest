@@ -31,7 +31,7 @@
   ],
   "posts": [
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DTItT7qie_s/",
       "posted_at": "2026-01-05T16:41:09",
       "content_type": "image",
@@ -44,7 +44,7 @@
       "is_notable": 1
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DTD0bwWk2oI/",
       "posted_at": "2026-01-03T19:07:34",
       "content_type": "video",
@@ -57,7 +57,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DTAyBLBAl_9/",
       "posted_at": "2026-01-02T14:49:07",
       "content_type": "video",
@@ -70,7 +70,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DS-5hyyjPd0/",
       "posted_at": "2026-01-01T21:15:28",
       "content_type": "carousel",
@@ -83,7 +83,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DS-5J9rgYdR/",
       "posted_at": "2026-01-01T21:12:34",
       "content_type": "video",
@@ -96,7 +96,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DS8o1ZXjlL8/",
       "posted_at": "2026-01-01T00:11:08",
       "content_type": "image",
@@ -109,7 +109,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DS2oVTcl6V1/",
       "posted_at": "2025-12-29T16:11:17",
       "content_type": "carousel",
@@ -122,7 +122,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DSzmBzdEUs3/",
       "posted_at": "2025-12-28T11:54:04",
       "content_type": "video",
@@ -135,7 +135,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DSuyYdAlAXV/",
       "posted_at": "2025-12-26T15:05:36",
       "content_type": "video",
@@ -148,7 +148,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 5,
+      "competitor_id": 1,
       "post_url": "https://www.instagram.com/p/DSuw8_IDLqV/",
       "posted_at": "2025-12-26T14:52:41",
       "content_type": "carousel",
@@ -161,7 +161,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DQkcg73jllf/",
       "posted_at": "2025-11-02T21:38:49",
       "content_type": "carousel",
@@ -174,7 +174,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DSoIRK1jrNv/",
       "posted_at": "2025-12-24T01:22:45",
       "content_type": "video",
@@ -187,7 +187,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DRfZk6djPJz/",
       "posted_at": "2025-11-25T19:20:20",
       "content_type": "video",
@@ -200,7 +200,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DRZc9iTjI5u/",
       "posted_at": "2025-11-23T11:46:28",
       "content_type": "video",
@@ -213,7 +213,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DRWwxt9DODr/",
       "posted_at": "2025-11-22T10:49:42",
       "content_type": "video",
@@ -226,7 +226,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DRR-LCZCpl-/",
       "posted_at": "2025-11-20T13:58:45",
       "content_type": "carousel",
@@ -239,7 +239,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DRFKmkij18I/",
       "posted_at": "2025-11-15T14:37:15",
       "content_type": "carousel",
@@ -252,7 +252,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DQ9rmgNE67M/",
       "posted_at": "2025-11-12T16:51:40",
       "content_type": "carousel",
@@ -265,7 +265,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DQ2Xu74Dkuf/",
       "posted_at": "2025-11-09T20:43:57",
       "content_type": "video",
@@ -278,7 +278,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 7,
+      "competitor_id": 3,
       "post_url": "https://www.instagram.com/p/DQqdzcZky8B/",
       "posted_at": "2025-11-05T05:45:52",
       "content_type": "video",
@@ -291,7 +291,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUllE2FjqfG/",
       "posted_at": "2026-02-10T18:19:32",
       "content_type": "image",
@@ -304,7 +304,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUvjNn0jsbk/",
       "posted_at": "2026-02-14T15:15:20",
       "content_type": "image",
@@ -317,7 +317,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUtBKrbDilA/",
       "posted_at": "2026-02-13T15:39:40",
       "content_type": "image",
@@ -330,7 +330,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUqcEobDn3B/",
       "posted_at": "2026-02-12T15:36:35",
       "content_type": "image",
@@ -343,7 +343,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUn-sQxjgHv/",
       "posted_at": "2026-02-11T16:46:27",
       "content_type": "image",
@@ -356,7 +356,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUi-M9ADjQ1/",
       "posted_at": "2026-02-09T18:00:17",
       "content_type": "carousel",
@@ -369,7 +369,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUbS_HaDs5o/",
       "posted_at": "2026-02-06T18:28:42",
       "content_type": "image",
@@ -382,7 +382,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUax89ojrex/",
       "posted_at": "2026-02-06T13:45:41",
       "content_type": "image",
@@ -395,7 +395,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUYOdvbDrAY/",
       "posted_at": "2026-02-05T13:55:02",
       "content_type": "image",
@@ -408,7 +408,7 @@
       "is_notable": 0
     },
     {
-      "competitor_id": 6,
+      "competitor_id": 2,
       "post_url": "https://www.instagram.com/p/DUWBvQaDlmE/",
       "posted_at": "2026-02-04T17:24:33",
       "content_type": "image",
