@@ -333,12 +333,8 @@ def seed_scripts_from_json(conn):
 
 
 def seed_competitors_from_json(conn):
-    """Load competitors and posts from seed JSON if competitors table is empty."""
+    """Load competitors and posts from seed JSON. Refreshes data on each deploy."""
     import json
-    count = conn.execute("SELECT COUNT(*) FROM competitors").fetchone()[0]
-    if count > 0:
-        print(f"Competitors table already has {count} rows, skipping seed.", flush=True)
-        return
 
     seed_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seed_competitors.json")
     if not os.path.exists(seed_file):
@@ -347,6 +343,11 @@ def seed_competitors_from_json(conn):
 
     with open(seed_file) as f:
         data = json.load(f)
+
+    # Clear existing competitor data and reload from seed
+    conn.execute("DELETE FROM competitor_posts")
+    conn.execute("DELETE FROM competitor_snapshots")
+    conn.execute("DELETE FROM competitors")
 
     # Insert competitors and build ID map
     id_map = {}
@@ -370,7 +371,7 @@ def seed_competitors_from_json(conn):
              p.get("is_notable", 0)],
         )
     conn.commit()
-    print(f"Seeded {len(data['competitors'])} competitors and {len(data['posts'])} posts.", flush=True)
+    print(f"Loaded {len(data['competitors'])} competitors and {len(data['posts'])} posts from seed.", flush=True)
 
 
 def main():
