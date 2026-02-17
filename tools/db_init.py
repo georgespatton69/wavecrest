@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS scripts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
     body TEXT NOT NULL,
-    script_type TEXT NOT NULL CHECK(script_type IN ('influencer_reels', 'ad_reels', 'voiceover_reels', 'therapist_scripts', 'carousel_posts')),
+    script_type TEXT NOT NULL CHECK(script_type IN ('influencer_reels', 'ad_reels', 'voiceover_reels', 'therapist_scripts', 'carousel_posts', 'suggestions')),
     pillar_id INTEGER REFERENCES content_pillars(id),
     status TEXT NOT NULL DEFAULT 'backlog' CHECK(status IN ('backlog', 'todo', 'completed')),
     notes TEXT,
@@ -390,6 +390,34 @@ def seed_competitors_from_json(conn):
     print(f"Competitors: {total_comps} total ({added_comps} new). Posts: {total_posts} total ({added_posts} new).", flush=True)
 
 
+def migrate_scripts_check(conn):
+    """Recreate scripts table with updated CHECK constraint if needed."""
+    sql = conn.execute(
+        "SELECT sql FROM sqlite_master WHERE type='table' AND name='scripts'"
+    ).fetchone()
+    if not sql or "suggestions" in sql[0]:
+        return  # Already migrated or table doesn't exist yet
+
+    print("Migrating scripts table to add 'suggestions' category...", flush=True)
+    conn.executescript("""
+        ALTER TABLE scripts RENAME TO scripts_old;
+        CREATE TABLE scripts (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT NOT NULL,
+            body TEXT NOT NULL,
+            script_type TEXT NOT NULL CHECK(script_type IN ('influencer_reels', 'ad_reels', 'voiceover_reels', 'therapist_scripts', 'carousel_posts', 'suggestions')),
+            pillar_id INTEGER REFERENCES content_pillars(id),
+            status TEXT NOT NULL DEFAULT 'backlog' CHECK(status IN ('backlog', 'todo', 'completed')),
+            notes TEXT,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        INSERT INTO scripts SELECT * FROM scripts_old;
+        DROP TABLE scripts_old;
+    """)
+    print("Migration complete.", flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Initialize the Wavecrest database")
     parser.add_argument("--seed", action="store_true", help="Insert seed data")
@@ -402,6 +430,7 @@ def main():
     conn = get_connection()
     try:
         create_tables(conn)
+        migrate_scripts_check(conn)
         seed_scripts_from_json(conn)
         seed_competitors_from_json(conn)
         if args.seed:

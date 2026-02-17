@@ -275,15 +275,35 @@ with tab1:
                             if os.path.exists(img["file_path"]):
                                 st.image(img["file_path"], width=150, caption=img["file_name"])
 
-                if st.button("Delete", key=f"del_sg_{sg['id']}", type="secondary"):
-                    for img in images:
-                        try:
-                            if os.path.exists(img["file_path"]):
-                                os.remove(img["file_path"])
-                        except OSError:
-                            pass
-                    delete_row("content_suggestions", sg["id"])
-                    st.rerun()
+                btn1, btn2 = st.columns(2)
+                with btn1:
+                    if st.button("Move to Todos", key=f"todo_sg_{sg['id']}", type="primary"):
+                        insert_row("scripts", {
+                            "title": sg["title"],
+                            "body": sg.get("description") or sg["title"],
+                            "script_type": "suggestions",
+                            "status": "todo",
+                        })
+                        # Remove images and delete the suggestion
+                        for img in images:
+                            try:
+                                if os.path.exists(img["file_path"]):
+                                    os.remove(img["file_path"])
+                            except OSError:
+                                pass
+                        delete_row("content_suggestions", sg["id"])
+                        st.toast("Moved to Scripts Todos!")
+                        st.rerun()
+                with btn2:
+                    if st.button("Delete", key=f"del_sg_{sg['id']}", type="secondary"):
+                        for img in images:
+                            try:
+                                if os.path.exists(img["file_path"]):
+                                    os.remove(img["file_path"])
+                            except OSError:
+                                pass
+                        delete_row("content_suggestions", sg["id"])
+                        st.rerun()
 
     with col_organic:
         st.markdown(
