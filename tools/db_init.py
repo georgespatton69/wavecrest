@@ -332,6 +332,47 @@ def seed_scripts_from_json(conn):
     print(f"Seeded {len(scripts)} scripts.", flush=True)
 
 
+def seed_competitors_from_json(conn):
+    """Load competitors and posts from seed JSON if competitors table is empty."""
+    import json
+    count = conn.execute("SELECT COUNT(*) FROM competitors").fetchone()[0]
+    if count > 0:
+        print(f"Competitors table already has {count} rows, skipping seed.", flush=True)
+        return
+
+    seed_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "seed_competitors.json")
+    if not os.path.exists(seed_file):
+        print("No seed_competitors.json found, skipping.", flush=True)
+        return
+
+    with open(seed_file) as f:
+        data = json.load(f)
+
+    # Insert competitors and build ID map
+    id_map = {}
+    for i, c in enumerate(data["competitors"], start=1):
+        cursor = conn.execute(
+            "INSERT INTO competitors (name, handle, platform, profile_url, notes) VALUES (?, ?, ?, ?, ?)",
+            [c["name"], c["handle"], c["platform"], c.get("profile_url"), c.get("notes")],
+        )
+        id_map[i] = cursor.lastrowid
+
+    # Insert posts with mapped competitor IDs
+    for p in data["posts"]:
+        new_comp_id = id_map.get(p["competitor_id"], p["competitor_id"])
+        conn.execute(
+            "INSERT INTO competitor_posts (competitor_id, post_url, posted_at, content_type, caption_snippet, "
+            "likes, comments, estimated_engagement_rate, content_theme, notes, is_notable) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            [new_comp_id, p.get("post_url"), p.get("posted_at"), p.get("content_type"),
+             p.get("caption_snippet"), p.get("likes", 0), p.get("comments", 0),
+             p.get("estimated_engagement_rate"), p.get("content_theme"), p.get("notes"),
+             p.get("is_notable", 0)],
+        )
+    conn.commit()
+    print(f"Seeded {len(data['competitors'])} competitors and {len(data['posts'])} posts.", flush=True)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Initialize the Wavecrest database")
     parser.add_argument("--seed", action="store_true", help="Insert seed data")
@@ -345,6 +386,7 @@ def main():
     try:
         create_tables(conn)
         seed_scripts_from_json(conn)
+        seed_competitors_from_json(conn)
         if args.seed:
             seed_data(conn)
         if args.check:
