@@ -432,6 +432,45 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DUD7C9tjt6-/",
+      "posted_at": "2026-01-28T16:37:31",
+      "content_type": "image",
+      "caption_snippet": "Getting sober doesn\u2019t rewrite the past. \nIt changes what comes next. \ud83d\ude4f Recovery is about learning, healing, and building the strength to move forward with clarity and intention. Progress happens one d",
+      "likes": 86,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0444,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DTTDsC3juje/",
+      "posted_at": "2026-01-09T17:08:59",
+      "content_type": "image",
+      "caption_snippet": "Sometimes healing looks like creativity. \ud83c\udfbc Research shows creative therapies like music therapy for addiction and expression through art help regulate emotion, process trauma, and rebuild identity, es",
+      "likes": 64,
+      "comments": 7,
+      "estimated_engagement_rate": 0.0328,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DU3UgRQjmEq/",
+      "posted_at": "2026-02-17T15:41:45",
+      "content_type": "image",
+      "caption_snippet": "Searching for outpatient addiction treatment in Fairfax VA? Many people also ask, \u201cWhat level of care do I need for alcohol or opioid addiction?\u201d Novara Recovery Center in Fairfax, Virginia, provides ",
+      "likes": 97,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0495,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
