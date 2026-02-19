@@ -471,6 +471,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DU6CNTvDtMX/",
+      "posted_at": "2026-02-18T16:58:58",
+      "content_type": "image",
+      "caption_snippet": "Drug rehab in Virginia leads to long-term recovery more often than many realize. \u26c5\ufe0f The National Institute on Drug Abuse reports that nearly 75% of people who experience addiction eventually recover.\n",
+      "likes": 100,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0513,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
