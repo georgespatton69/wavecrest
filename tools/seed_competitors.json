@@ -484,6 +484,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DU8hhTNjhAO/",
+      "posted_at": "2026-02-19T16:09:55",
+      "content_type": "carousel",
+      "caption_snippet": "Team bonding > team meetings \ud83c\udfb3 Bowling, pizza, and a little friendly competition with the Novara crew. Grateful for this team. #TeamCulture #NovaraRecoveryCenter",
+      "likes": 101,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0517,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
