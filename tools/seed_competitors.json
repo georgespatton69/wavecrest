@@ -510,6 +510,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVGwZIlDunP/",
+      "posted_at": "2026-02-23T15:34:28",
+      "content_type": "image",
+      "caption_snippet": "Every outpatient addiction treatment journey begins with listening. Novara Recovery Center\u2019s assessments help determine the appropriate level of care using recognized standards. Private. Thoughtful. C",
+      "likes": 109,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0555,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
