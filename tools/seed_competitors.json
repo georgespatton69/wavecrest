@@ -523,6 +523,45 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVQztmcjrNh/",
+      "posted_at": "2026-02-27T13:13:41",
+      "content_type": "carousel",
+      "caption_snippet": "Last weekend art class was led by Max \ud83c\udfa8 \ud83d\udc49 Swipe to see what the group made together @novararecoverycenter #arttherapy #creative #addictiontherapy #novararecovery",
+      "likes": 30,
+      "comments": 4,
+      "estimated_engagement_rate": 0.0161,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVJWpt8juNk/",
+      "posted_at": "2026-02-24T15:52:25",
+      "content_type": "image",
+      "caption_snippet": "Outpatient addiction treatment in Fairfax County VA begins with one easy call for confidential assessment. Brighter days follow. \u2600\ufe0f\ud83d\udcf2 See how recovery progress and structured support is built with Nova",
+      "likes": 85,
+      "comments": 10,
+      "estimated_engagement_rate": 0.045,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVL-rlJjnwN/",
+      "posted_at": "2026-02-25T16:14:27",
+      "content_type": "image",
+      "caption_snippet": "Emotional intensity. Urge control. Behavioral balance. \u2696\ufe0f\ud83e\udde0\n\nNovara Recovery Center\u2019s dialectical behavior therapy for alcoholism guides coping and mindfulness across Northern Virginia. Clinical superv",
+      "likes": 93,
+      "comments": 14,
+      "estimated_engagement_rate": 0.0507,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
