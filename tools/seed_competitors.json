@@ -575,6 +575,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVbp130DneG/",
+      "posted_at": "2026-03-03T18:21:23",
+      "content_type": "image",
+      "caption_snippet": "Daily structure lowers relapse risk by reducing unpredictability, stabilizing sleep, and limiting high-risk exposure windows. In addiction recovery, consistency matters. (Novara\u2019s structured care is i",
+      "likes": 91,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0478,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
