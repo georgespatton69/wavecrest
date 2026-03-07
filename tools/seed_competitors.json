@@ -614,6 +614,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVjV-t4DmqR/",
+      "posted_at": "2026-03-06T18:00:20",
+      "content_type": "image",
+      "caption_snippet": "Northern Virginia deserves recovery care that\u2019s licensed, structured, and built for real life. That\u2019s what we do at Novara Recovery Center. \ud83c\udf3f @novararecoverycenter \n.\n.\n#AddictionRecovery #MentalHealt",
+      "likes": 92,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0483,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
