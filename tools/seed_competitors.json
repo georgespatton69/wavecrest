@@ -640,6 +640,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVuDUT9jhDR/",
+      "posted_at": "2026-03-10T21:48:50",
+      "content_type": "image",
+      "caption_snippet": "Supporting those who support our community. \ud83d\udc9c\n\nThe Fairfax County First Responders Symposium is bringing together clinical leaders, public safety professionals, and community partners to strengthen be",
+      "likes": 97,
+      "comments": 9,
+      "estimated_engagement_rate": 0.0504,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DVtTeMQjrPZ/",
+      "posted_at": "2026-03-10T14:52:26",
+      "content_type": "image",
+      "caption_snippet": "Substance recovery care works best when care fits real life.\nNorthern Virginia communities have access to Novara Recovery Center\u2019s intensive outpatient program in Virginia that blends structured couns",
+      "likes": 105,
+      "comments": 11,
+      "estimated_engagement_rate": 0.0551,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
