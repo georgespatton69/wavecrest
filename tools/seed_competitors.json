@@ -679,6 +679,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DV1A-QDDovF/",
+      "posted_at": "2026-03-13T14:43:20",
+      "content_type": "image",
+      "caption_snippet": "Grateful for feedback like this from the community.\nAt Novara Recovery Center in Fairfax, Va treatment focuses on structured, compassionate addiction treatment that helps people rebuild stability and ",
+      "likes": 96,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0503,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
