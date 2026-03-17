@@ -692,6 +692,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DV8tTQejiUz/",
+      "posted_at": "2026-03-16T14:25:38",
+      "content_type": "image",
+      "caption_snippet": "Overdose risk feels overwhelming, but structured care at Novara Recovery Center in Fairfax, VA strengthens safety and confidence and the American Journal of Psychiatry notes that people receiving MAT ",
+      "likes": 106,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0549,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
