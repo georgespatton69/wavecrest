@@ -718,6 +718,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWB2Zzejuwi/",
+      "posted_at": "2026-03-18T14:20:19",
+      "content_type": "image",
+      "caption_snippet": "Be patient with the process, but uncompromising with the standard. \ud83d\udc9b\u2600\ufe0f\n\n#motivation #soberlife #soberliving",
+      "likes": 93,
+      "comments": 2,
+      "estimated_engagement_rate": 0.0447,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
