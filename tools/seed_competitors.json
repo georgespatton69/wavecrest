@@ -731,6 +731,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWG07pkDqGi/",
+      "posted_at": "2026-03-20T12:43:47",
+      "content_type": "image",
+      "caption_snippet": "The early phase of recovery is where structure starts to matter more than motivation. Routines change. Exposure increases. Consistency becomes everything.\n\nWhat\u2019s put in place during this stage can sh",
+      "likes": 2,
+      "comments": 3,
+      "estimated_engagement_rate": 0.0023,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWEYxF0jjBT/",
+      "posted_at": "2026-03-19T14:06:37",
+      "content_type": "image",
+      "caption_snippet": "What are the signs of opioid addiction? \u2b07\ufe0f\u274c\n\n\ud83d\udc49Needing a little more than before.\n\ud83d\udc49Planning your day around it without thinking twice.\n\ud83d\udc49Telling yourself it\u2019s temporary.\n\nNeed opioid rehab in Virginia? ",
+      "likes": 73,
+      "comments": 13,
+      "estimated_engagement_rate": 0.0403,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
