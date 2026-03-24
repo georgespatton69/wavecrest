@@ -757,6 +757,45 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWRMohHDiNc/",
+      "posted_at": "2026-03-24T13:26:14",
+      "content_type": "image",
+      "caption_snippet": "Connecting with others in behavioral health shapes how care is delivered and experienced. \n\nMoments like this matter. \ud83d\ude4c\n\nThe people behind the work, the conversations happening off camera, and the sha",
+      "likes": 86,
+      "comments": 2,
+      "estimated_engagement_rate": 0.0413,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWPZNTDFH9I/",
+      "posted_at": "2026-03-23T20:34:15",
+      "content_type": "carousel",
+      "caption_snippet": "\u2600\ufe0f A lot of progress starts in moments like these.\n\nConversations.\nListening.\nSeeing how others approach the same work.\n\nThat\u2019s what carries back into real care. \n\n#novararecoverycenter #recoverycommu",
+      "likes": 98,
+      "comments": 5,
+      "estimated_engagement_rate": 0.0484,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWO9RMhDhbg/",
+      "posted_at": "2026-03-23T16:30:54",
+      "content_type": "image",
+      "caption_snippet": "At some point, it stops being about just getting through the day and starts becoming about how you actually want to live it.\n\nWhat you make time for, what you protect, and what you choose not to go ba",
+      "likes": 92,
+      "comments": 7,
+      "estimated_engagement_rate": 0.0465,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
