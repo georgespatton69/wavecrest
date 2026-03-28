@@ -809,6 +809,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWZZyF6DvTe/",
+      "posted_at": "2026-03-27T17:52:30",
+      "content_type": "image",
+      "caption_snippet": "Care improves when the people delivering it stay connected. @novararecoverycenter \ud83d\udc9b\u2600\ufe0f\ud83d\udc9b #connection #addictionrecovery #novararecoverycenter",
+      "likes": 88,
+      "comments": 6,
+      "estimated_engagement_rate": 0.0457,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
