@@ -835,6 +835,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWl4tnVDl3b/",
+      "posted_at": "2026-04-01T14:12:50",
+      "content_type": "carousel",
+      "caption_snippet": "In Fairfax, recovery is empowered by mental health care and substance abuse support resources that are aligned in the same space together. Thank you to our partners and local Fairfax county community ",
+      "likes": 87,
+      "comments": 5,
+      "estimated_engagement_rate": 0.0444,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWjS9RmDuu8/",
+      "posted_at": "2026-03-31T14:06:35",
+      "content_type": "video",
+      "caption_snippet": "Every step of care at Novara Recovery Center in Fairfax is guided by structure and clinical coordination.\n\nDrug and alcohol rehab treatment begins with assessment, followed by a persoanlized plan that",
+      "likes": 103,
+      "comments": 9,
+      "estimated_engagement_rate": 0.054,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
