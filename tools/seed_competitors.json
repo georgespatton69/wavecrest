@@ -861,6 +861,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWoh4avDr6H/",
+      "posted_at": "2026-04-02T14:53:20",
+      "content_type": "image",
+      "caption_snippet": "During rehab at Novara Recovery Center in Fairfax VA, personalized care and care planning shapes how each day feels.\n\nHousing stability, daily routine, and support systems all play a role in building ",
+      "likes": 98,
+      "comments": 9,
+      "estimated_engagement_rate": 0.0512,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
