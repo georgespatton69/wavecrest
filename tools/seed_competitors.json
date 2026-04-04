@@ -874,6 +874,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWtbwRXDrHp/",
+      "posted_at": "2026-04-04T12:35:16",
+      "content_type": "image",
+      "caption_snippet": "Sometimes starting is the hardest part of the journey. \n\n#recoveryjourney #novara #novararecoverycenter",
+      "likes": 96,
+      "comments": 3,
+      "estimated_engagement_rate": 0.047,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWrAxCMDrGb/",
+      "posted_at": "2026-04-03T14:05:53",
+      "content_type": "video",
+      "caption_snippet": "At Novara Recovery Center in Fairfax VA, structured rehab is built around programs like music and art therapy for addiction. Creative therapy at NRC helps translate internal experiences into something",
+      "likes": 101,
+      "comments": 11,
+      "estimated_engagement_rate": 0.0532,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
