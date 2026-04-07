@@ -900,6 +900,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWysNEZDsre/",
+      "posted_at": "2026-04-06T13:34:04",
+      "content_type": "video",
+      "caption_snippet": "It doesn\u2019t feel like a problem\u2026\nuntil you try to stop \n\n#sobriety #addictionhelp #mentalhealthsupport #recoveryjourney #novara",
+      "likes": 101,
+      "comments": 11,
+      "estimated_engagement_rate": 0.052,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DWwT6ZwjlWS/",
+      "posted_at": "2026-04-05T15:23:16",
+      "content_type": "image",
+      "caption_snippet": "Happy Easter from Novara Recovery Center! \ud83c\udf38\ud83d\udc07\n\nThis season is all about growth, change, and new life.\n\nEven the smallest steps forward can lead to something meaningful over time. Progress does not have",
+      "likes": 108,
+      "comments": 11,
+      "estimated_engagement_rate": 0.0552,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
