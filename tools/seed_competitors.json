@@ -939,6 +939,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DW4Nkw6Djsj/",
+      "posted_at": "2026-04-08T17:02:02",
+      "content_type": "image",
+      "caption_snippet": "Outpatient addiction treatment in Fairfax VA works when structure is built into each part of the day.\n\nThat includes more than clinical sessions. Structured activities like music, art, and guided enga",
+      "likes": 97,
+      "comments": 11,
+      "estimated_engagement_rate": 0.0495,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DW6Uyxdjmyz/",
+      "posted_at": "2026-04-09T12:43:16",
+      "content_type": "image",
+      "caption_snippet": "At Novara Recovery Center, rehab near Alexandria, Virginia empowers recovery with personalized structured support with drug and alcouol rehab tailored to each individual \ud83d\ude0a\u2600\ufe0f\n\nVerify insurance fast. St",
+      "likes": 94,
+      "comments": 1,
+      "estimated_engagement_rate": 0.0435,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
