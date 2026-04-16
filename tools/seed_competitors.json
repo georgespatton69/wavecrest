@@ -1030,6 +1030,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXMTbSqDgRG/",
+      "posted_at": "2026-04-16T12:19:54",
+      "content_type": "image",
+      "caption_snippet": "Recovery work is serious\u2026\n\nThe people doing it every day still find ways to bring energy, connection, and personality to Novara Recovery. \ud83d\ude0a\n\n@novararecoverycenter \n\n#novararecoverycenter #fairfaxva #r",
+      "likes": 173,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0759,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXJ-AuRjh42/",
+      "posted_at": "2026-04-15T14:32:21",
+      "content_type": "image",
+      "caption_snippet": "Novara Recovery Center in Fairfax VA builds recovery through routine.\n\nIt usually starts simply:\n\u2022 writing things down\n\u2022 showing up every day\n\u2022 following a clear plan\n\nSpaces like this stay part of th",
+      "likes": 102,
+      "comments": 9,
+      "estimated_engagement_rate": 0.0487,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
