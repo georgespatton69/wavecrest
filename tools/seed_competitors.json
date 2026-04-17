@@ -1056,6 +1056,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 3,
+      "post_url": "https://www.instagram.com/p/DXNZqtFDtrf/",
+      "posted_at": "2026-04-16T22:31:10",
+      "content_type": "carousel",
+      "caption_snippet": "\ud83c\udf31\ud83c\udf3b\ud83d\udd4a\ufe0f\ud83e\udd0d\n\n#endingdepression #freedom #mentalhealthcare #healingdallas #healingaustin",
+      "likes": 1,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0003,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
