@@ -1069,6 +1069,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXPQcsoDq9Y/",
+      "posted_at": "2026-04-17T15:49:06",
+      "content_type": "carousel",
+      "caption_snippet": "Rehab timelines are built around the individual.\n\nNovara Recovery Center\u2019s assessment looks at substance use patterns, medical and mental health history, progress in treatment, and overall support sys",
+      "likes": 162,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0745,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
