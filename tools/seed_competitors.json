@@ -1082,6 +1082,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXRwCvUjjSo/",
+      "posted_at": "2026-04-18T15:05:15",
+      "content_type": "image",
+      "caption_snippet": "The team that keeps things moving.\n\n@novararecoverycenter | Drug and Alcohol Rehab Fairfax VA\n\n#novararecovery #rehabva",
+      "likes": 152,
+      "comments": 10,
+      "estimated_engagement_rate": 0.0698,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
