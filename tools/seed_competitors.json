@@ -1095,6 +1095,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXZOPVxjg5N/",
+      "posted_at": "2026-04-21T12:43:34",
+      "content_type": "image",
+      "caption_snippet": "Congratulations to Enrico, Lead Behavioral Health Technician at Novara Recovery Center, marking 12 years of continuous sobriety! \ud83d\ude4f #sobriety #sober #recoveryjourney",
+      "likes": 135,
+      "comments": 2,
+      "estimated_engagement_rate": 0.058,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXXCJ62DuCt/",
+      "posted_at": "2026-04-20T16:18:35",
+      "content_type": "image",
+      "caption_snippet": "Early recovery depends on how treatment is structured on day one. \n\nIn many programs separate substance use and mental health into different tracks. Especially early in recovery.\n\nAt Novara Recovery C",
+      "likes": 170,
+      "comments": 7,
+      "estimated_engagement_rate": 0.075,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
