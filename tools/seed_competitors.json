@@ -1121,6 +1121,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXclF3WjOBg/",
+      "posted_at": "2026-04-22T20:02:01",
+      "content_type": "image",
+      "caption_snippet": "Drug and alcohol rehab in Fairfax, VA at Novara\u2026\n\nDetox, PHP, IOP, Outpatient\nSame-day admissions available across Northern Virginia.\n\nCall (703) 705-7870 | Click the bio link @novararecoverycenter \n\n",
+      "likes": 124,
+      "comments": 6,
+      "estimated_engagement_rate": 0.0545,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
