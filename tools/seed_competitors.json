@@ -1134,6 +1134,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXeozdAjr2H/",
+      "posted_at": "2026-04-23T15:10:51",
+      "content_type": "image",
+      "caption_snippet": "Some conversations are hard to start.\n\nDual diagnosis drug and alcohol rehab in Fairfax and across Northern Virginia at Novara is where the next steps become clear.\n\nAt Novara Recovery Center, the pro",
+      "likes": 175,
+      "comments": 5,
+      "estimated_engagement_rate": 0.0751,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
