@@ -1160,6 +1160,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXoxoy4jlC_/",
+      "posted_at": "2026-04-27T13:44:07",
+      "content_type": "image",
+      "caption_snippet": "Most people aren\u2019t sure where to start when they look into addiction treatment near Alexandria\n\nThe first step towards rehab at Novara is a conversation about what has been happening and how consisten",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXmu3stDkOS/",
+      "posted_at": "2026-04-26T18:39:49",
+      "content_type": "image",
+      "caption_snippet": "\u201cNothing changes if nothing changes.\u201d\n\nSometimes the smallest step in the right direction ends up being the biggest step towards progress and healing.\n\n@novararecoverycenter \u2600\ufe0f\n\n#progress #novararecov",
+      "likes": 177,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0733,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
