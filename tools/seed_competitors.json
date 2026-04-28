@@ -1186,6 +1186,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXpc13pjHdr/",
+      "posted_at": "2026-04-27T19:58:33",
+      "content_type": "image",
+      "caption_snippet": "Welcoming James Flentje to the team as Director of Clinical Outreach at Novara! \n\n#NovaraRecoveryCenter #FairfaxVA #BehavioralHealth #AddictionTreatment #RecoverySupport",
+      "likes": 152,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0625,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXrYfWeCSs4/",
+      "posted_at": "2026-04-28T13:58:06",
+      "content_type": "image",
+      "caption_snippet": "If work or home responsibilities can\u2019t pause, outpatient rehab near Arlington is what people ask about first. Rehab at Novara Recovery Center is where licensed teams look at how steady things have bee",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
