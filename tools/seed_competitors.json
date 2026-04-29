@@ -1212,6 +1212,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXt9Hf_DlsR/",
+      "posted_at": "2026-04-29T13:56:39",
+      "content_type": "image",
+      "caption_snippet": "How Wellness Hills determines the right level of care for mental health treatment in Chester \n\nWellness Hills admissions reviews how symptoms are showing up across daily routine. Assessment and tracki",
+      "likes": 1,
+      "comments": 1,
+      "estimated_engagement_rate": 0.0008,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXt44rfjPiY/",
+      "posted_at": "2026-04-29T13:21:35",
+      "content_type": "image",
+      "caption_snippet": "What the day looks like at Novara Recovery \u2600\ufe0f\n\nDuring rehab at Novara Recovery Center, each day is built around a set schedule that keeps things consistent from morning through evening. \n\nStructure he",
+      "likes": 137,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0559,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
