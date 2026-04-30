@@ -1238,6 +1238,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXwhg0gjAfE/",
+      "posted_at": "2026-04-30T13:57:07",
+      "content_type": "image",
+      "caption_snippet": "If things keep improving and then sliding back, it\u2019s means the level of support isn\u2019t holding\u2026 \n\nThat pattern shows up a lot in calls from Arlington.\nAt Novara, the first step is looking at how often ",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
