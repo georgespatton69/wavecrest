@@ -1251,6 +1251,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DXzV5mBjC_o/",
+      "posted_at": "2026-05-01T16:11:36",
+      "content_type": "image",
+      "caption_snippet": "Repeated setbacks are often a sign of misaligned treatment intensity\n\nThat's why rehab at Novara Recovery Center looks at recent patterns are reviewed alongside stability across daily routine. That le",
+      "likes": 151,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0626,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
