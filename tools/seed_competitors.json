@@ -1264,6 +1264,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DX7S0zxjMwp/",
+      "posted_at": "2026-05-04T18:20:00",
+      "content_type": "image",
+      "caption_snippet": "Intensive Outpatient rehab in Fairfax VA at Novara Recovery Center provides structured care when needing stabilization \n\nAt Novara Recovery Center, inpatient and detox programs support addiction treat",
+      "likes": 145,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0597,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
