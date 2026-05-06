@@ -1277,6 +1277,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DX9sPjgOuvD/",
+      "posted_at": "2026-05-05T16:39:15",
+      "content_type": "image",
+      "caption_snippet": "\u201cYou feel the difference before anyone else sees it.\u201d \u263a\ufe0f\n\nToday might come with social pressure, alcohol cues, and emotional triggers.\n\nBut recovery often looks like something simple; knowing your lim",
+      "likes": 134,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0549,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
