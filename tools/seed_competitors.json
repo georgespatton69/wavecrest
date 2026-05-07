@@ -1290,6 +1290,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYCemZbDuSi/",
+      "posted_at": "2026-05-07T13:14:48",
+      "content_type": "image",
+      "caption_snippet": "Consistent daily structure is what inpatient rehab in Fairfax VA at Novara Recovery Center is made for \ud83d\udcaa\n\nNRC\u2019s inpatient and detox programs in Fairfax empower addiction treatment across Northern Virg",
+      "likes": 152,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0622,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYABuM7uaU9/",
+      "posted_at": "2026-05-06T14:24:58",
+      "content_type": "video",
+      "caption_snippet": "Recognize any of these signs? \n\nHaving both mental health symptoms and substance use challenges means dual-diagnosis recovery needs the full picture. Novara Recovery Center | Fairfax VA \ud83d\udc99\n#DualDiagnos",
+      "likes": 157,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0643,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
