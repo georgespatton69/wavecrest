@@ -1316,6 +1316,45 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYM8UhauqqZ/",
+      "posted_at": "2026-05-11T14:48:08",
+      "content_type": "image",
+      "caption_snippet": "Progress doesnt happen all at once. It builds. \ud83e\udde1\n\nOne honest conversation.\nOne call to find out.\nOne decision to stop carrying everything alone.\n\n#RecoveryJourney #BehavioralHealth #NovaraRecoveryCent",
+      "likes": 177,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0712,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYFmU0lsZ5x/",
+      "posted_at": "2026-05-08T18:21:00",
+      "content_type": "image",
+      "caption_snippet": "Today was the perfect day for equine therapy \u2600\ufe0f @novararecoverycenter #animaltherapy #equinetherapy #novararecoverycenter",
+      "likes": 144,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0579,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYFE7g1jua4/",
+      "posted_at": "2026-05-08T13:27:26",
+      "content_type": "carousel",
+      "caption_snippet": "\u201cI used to sit in the driveway for twenty minutes before going inside because I knew my kids could tell something was wrong.\u201d - Aaron T.\n\nAaron described recovery as learning how to be present again a",
+      "likes": 135,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0543,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
