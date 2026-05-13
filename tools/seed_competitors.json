@@ -1355,6 +1355,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYPjqpNjqQV/",
+      "posted_at": "2026-05-12T15:08:25",
+      "content_type": "carousel",
+      "caption_snippet": "Hibachi with Novara Recovery Center \ud83d\udd25 @novararecoverycenter #AddictionTreatment #RecoveryCommunity #FairfaxVA",
+      "likes": 172,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0689,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYR91SgjBdE/",
+      "posted_at": "2026-05-13T13:35:33",
+      "content_type": "image",
+      "caption_snippet": "Recovery is stable when daily routines rely on structure. Getting back on track comes from consistency found in morning plans structures treatment, therapy, and accountability instead of reacting to e",
+      "likes": 144,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0576,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
