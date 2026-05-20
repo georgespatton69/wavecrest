@@ -1446,6 +1446,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYhh96HuWXk/",
+      "posted_at": "2026-05-19T14:42:23",
+      "content_type": "image",
+      "caption_snippet": "@benandjerrys ice cream social with the team at Novara Recovery Center! Moments of connection strengthen the environment every day at Novara Recovery Center. @novararecoverycenter \ud83c\udf66\n\n#NovaraRecoveryCe",
+      "likes": 155,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0612,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
