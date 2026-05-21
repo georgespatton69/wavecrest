@@ -1459,6 +1459,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DYkck3Zu6yH/",
+      "posted_at": "2026-05-20T17:51:59",
+      "content_type": "image",
+      "caption_snippet": "\u201cI realized treatment was working when stressful situations didn\u2019t end with me having a drink in my hand.\u201d -James\n\nHealing during substance abuse recovery shows up in answering a text, staying present",
+      "likes": 143,
+      "comments": 1,
+      "estimated_engagement_rate": 0.0567,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
