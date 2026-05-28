@@ -1524,6 +1524,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DY2X3K9uY8s/",
+      "posted_at": "2026-05-27T16:56:00",
+      "content_type": "image",
+      "caption_snippet": "A call that takes just five minutes to verify insurance can be the one that makes everything else feel possible.\n\nChecking what your plan covers for drug rehab in Virginia costs nothing and an admissi",
+      "likes": 128,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0489,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
