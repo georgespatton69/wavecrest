@@ -1537,6 +1537,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DY5E4lsMBXd/",
+      "posted_at": "2026-05-28T18:10:05",
+      "content_type": "image",
+      "caption_snippet": "Drug rehab in Virginia often feels financially out of reach until families actually check their coverage. \n\nMost insurance verification calls take just a few minutes and many plans cover more treatmen",
+      "likes": 124,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0472,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
