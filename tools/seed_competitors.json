@@ -1576,6 +1576,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZKkCXyObOD/",
+      "posted_at": "2026-06-04T13:09:36",
+      "content_type": "image",
+      "caption_snippet": "Hesitation about alcohol rehab in Fairfax is real but most admissions conversations sound more like\u2026\n\n\u201cHow would treatment fit?\u201d\n \u201cHow fast could treatment start?\u201d \n\nA fast and free admissions review ",
+      "likes": 159,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0601,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZIIV1HO7K0/",
+      "posted_at": "2026-06-03T14:28:41",
+      "content_type": "image",
+      "caption_snippet": "Outpatient rehab at Novara Recovery Center in Fairfax runs around the schedule, not over it. Day sessions, evening sessions, three to five days a week with that is flexible. Start now with same-day ad",
+      "likes": 156,
+      "comments": 0,
+      "estimated_engagement_rate": 0.059,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
