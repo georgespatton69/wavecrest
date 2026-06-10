@@ -1628,6 +1628,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZaFOaZCg0i/",
+      "posted_at": "2026-06-10T13:45:30",
+      "content_type": "image",
+      "caption_snippet": "Every recovery journey is different during rehab at Novara Recovery Center. Questions before starting treatment are totally normal and can help clarify the exact treatment pathways, insurance question",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZXj5oADXVY/",
+      "posted_at": "2026-06-09T14:15:47",
+      "content_type": "carousel",
+      "caption_snippet": "\u26f3\ufe0f Rooftop mini golf outing at Perch Putt at Capital One Center in Tysons, VA \n.\n.\n#novararecoverycenter #tysonsva",
+      "likes": 167,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0607,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
