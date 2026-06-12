@@ -1654,6 +1654,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZcw8DsjB2F/",
+      "posted_at": "2026-06-11T14:45:55",
+      "content_type": "image",
+      "caption_snippet": "Stress doesn't have to be part of the process when starting rehab in Virginia. \n\nQuestions about rehab get clear answers just by calling. Learn how treatment pathways are matched to clinical needs and",
+      "likes": 176,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0625,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
