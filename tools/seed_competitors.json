@@ -1667,6 +1667,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZph2jHDhEu/",
+      "posted_at": "2026-06-16T13:44:13",
+      "content_type": "carousel",
+      "caption_snippet": "One of the most common questions before treatment is rarely asked out loud\u2026\n\n\u201cWhat will rehab feel like?\u201d \ud83e\udd14\n\nSometimes people starting rehab in\nVirginia anticipate pressure, uncomfortable silence, or ",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZnDmKkuiNh/",
+      "posted_at": "2026-06-15T14:42:05",
+      "content_type": "image",
+      "caption_snippet": "Don\u2019t spend more time thinking about treatment than starting... \n\nThe truth is no one feels completely ready to make the call about needing rehab in VA. Calls about rehab in Fairfax provides clarity a",
+      "likes": 126,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0442,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
