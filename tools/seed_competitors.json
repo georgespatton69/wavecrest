@@ -1693,6 +1693,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZsTU_zu1Y3/",
+      "posted_at": "2026-06-17T15:37:52",
+      "content_type": "image",
+      "caption_snippet": "Privacy concerns stop more admissions conversations than people realize.\n\nNot because someone doesn\u2019t want help.\nThey\u2019re unsure if it will help.\nThey\u2019re worried being  judged for their addiction. \nThe",
+      "likes": 172,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0597,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
