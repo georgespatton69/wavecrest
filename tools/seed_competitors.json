@@ -1706,6 +1706,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZxJfpmuLxm/",
+      "posted_at": "2026-06-19T12:46:05",
+      "content_type": "image",
+      "caption_snippet": "Work still gets done. Responsibilities still happen. Addiction treatment in Virginia is flexible. Novara helps determine if outpatient treatment, IOP, and step down support fit next. Call (703) 705-78",
+      "likes": 159,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0551,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZuw_5nOF0f/",
+      "posted_at": "2026-06-18T14:36:40",
+      "content_type": "image",
+      "caption_snippet": "Nobody remembers a treatment schedule or every detail about rehab programs in Fairfax at Novara Recovery \ud83d\uddd3\ufe0f \u274c\n\nHere\u2019s what mattered that people take away from their experience during treatment\u2026\n\n\u2026in r",
+      "likes": 159,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0551,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
