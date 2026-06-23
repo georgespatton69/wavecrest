@@ -1745,6 +1745,45 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZ7gLnLlKnD/",
+      "posted_at": "2026-06-23T13:15:57",
+      "content_type": "carousel",
+      "caption_snippet": "Participation. Connection. New experiences.\n\nTime spent at Riverbend Park in Great Falls became another reminder that progress is built one experience at a time \ud83c\udf3f\n\n\ud83d\udcde (703) 705-7870\n\ud83c\udf10 novararecoverycen",
+      "likes": 1,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0003,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZ5juiTMQ9K/",
+      "posted_at": "2026-06-22T19:10:15",
+      "content_type": "image",
+      "caption_snippet": "Thank you to the people behind the care and community @novararecoverycenter \ud83d\udc4d\n\n#novararecoverycenter #recoverycare #recoverycommunity",
+      "likes": 130,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0436,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DZ5QPXcDmUZ/",
+      "posted_at": "2026-06-22T16:18:10",
+      "content_type": "carousel",
+      "caption_snippet": "Questions about rehab in Fairfax are usually about the schedule, not the treatment. \u270f\ufe0f\ud83d\ude4b \n\nBalancing work responsibilities and life\u2019s commitments makes finding the right fit for alcohol rehab in Fairfa",
+      "likes": 164,
+      "comments": 0,
+      "estimated_engagement_rate": 0.055,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
