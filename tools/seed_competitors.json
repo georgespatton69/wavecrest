@@ -1849,6 +1849,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaNmNMlDEDR/",
+      "posted_at": "2026-06-30T13:54:55",
+      "content_type": "image",
+      "caption_snippet": "Good days in good company \ud83d\udef6\u2600\ufe0f\ud83d\udc4d @novararecoverycenter\n\n #novararecoverycenter #recreationaltberapyforaddiction #addiction",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaLEthvOIbi/",
+      "posted_at": "2026-06-29T14:24:23",
+      "content_type": "image",
+      "caption_snippet": "Small steps add up and create experiences that are less overwhelming and more grounded in support during rehab in Fairfax at Novara Recovery Center. \n\nMost callers are surprised by how quickly answers",
+      "likes": 131,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0425,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
