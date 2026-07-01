@@ -1875,6 +1875,45 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaQBPoTuVVF/",
+      "posted_at": "2026-07-01T12:31:59",
+      "content_type": "image",
+      "caption_snippet": "When mental health and addiction overlap treatment should too. Treating half the problem rarely solves the whole problem. \u26c5\ufe0f\n\nStart comprehensive clinical assessment that looks at how anxiety, substan",
+      "likes": 146,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0472,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaOT786MoPE/",
+      "posted_at": "2026-06-30T20:37:35",
+      "content_type": "video",
+      "caption_snippet": "Recovery is more than just about stopping substance use.\n\nIt\u2019s creating a life that no longer revolves around it.\n\nTreatment can provide structure, therapy, accountability, and practical tools to help",
+      "likes": 146,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0472,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaOSZAksBZO/",
+      "posted_at": "2026-06-30T20:22:44",
+      "content_type": "image",
+      "caption_snippet": "Being alone while facing the underlying fear that if nobody else recognizes a problem, it isn\u2019t serious enough. \ud83d\udc4e \n\nAvoidance could be part of the problem. Outpatient drug rehab in Fairfax VA at Novar",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
