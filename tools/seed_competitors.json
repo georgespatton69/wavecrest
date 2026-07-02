@@ -1914,6 +1914,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaSvjxvOWB3/",
+      "posted_at": "2026-07-02T13:54:47",
+      "content_type": "image",
+      "caption_snippet": "Which matters more when choosing treatment?\n\nYour schedule?\nYour symptoms?\nThe answer is both.\n\nChoosing the right level of care means finding the balance between the clinical support you need and a s",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
