@@ -1927,6 +1927,32 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaX30NfusZw/",
+      "posted_at": "2026-07-04T13:42:08",
+      "content_type": "image",
+      "caption_snippet": "\ud83c\uddfa\ud83c\uddf8 Novara Recovery Center wishes everyone a happy 4th of July! #4thofjuly #independenceday",
+      "likes": 0,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DaVaOQViGNO/",
+      "posted_at": "2026-07-03T14:44:10",
+      "content_type": "image",
+      "caption_snippet": "What if the only thing standing between today and treatment\u2026 is one unanswered question?\n\nQuestions about detox, outpatient care, insurance, work schedules, or what happens next can make it feel easie",
+      "likes": 147,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0466,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
