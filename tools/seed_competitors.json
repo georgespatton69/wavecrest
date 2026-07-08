@@ -1966,6 +1966,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DafvU9HO84V/",
+      "posted_at": "2026-07-07T15:02:03",
+      "content_type": "image",
+      "caption_snippet": "Where does recovery begin when anxiety and substance use are both part of dual diagnosis treatment in Fairfax?\n\nTreating only one challenge can leave the other untreated, making lasting recovery more ",
+      "likes": 176,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0547,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
