@@ -2057,6 +2057,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/Da0Z7XKupek/",
+      "posted_at": "2026-07-15T15:46:34",
+      "content_type": "image",
+      "caption_snippet": "How many times have you said, \u201cI\u2019ll deal with it next week\u201d?\n\nWaiting often feels easier than wondering what happens if you call. The first confidential conversation can answer questions about detox, ",
+      "likes": 163,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0501,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
