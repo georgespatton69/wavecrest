@@ -2070,6 +2070,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/Da3Mok6xXvJ/",
+      "posted_at": "2026-07-16T17:39:41",
+      "content_type": "image",
+      "caption_snippet": "Big announcement from Novara Recovery Center, Virtual IOP is now live! \ud83d\udc4d\n\nStarting now, anyone in Virginia can access our Intensive Outpatient Program virtually.\n\nNovara offers multiple options to acc",
+      "likes": 169,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0522,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
