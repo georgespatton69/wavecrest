@@ -20,6 +20,7 @@ Two bodies of work: the **Wavecrest Streamlit dashboard** (software) and **Meta 
 - [Client: TDV Tax Relief](client-tdv-tax-relief.md) — NEW 2026-09-07; **financial-services / IRS tax-resolution** firm (tdvtaxrelief.com), NOT rehab. Two-phase pricing ($495–895 investigation → resolution quote), targets $10K+ tax-debt taxpayers, EA/CPA-led. Meta account NOT built yet — user to provide existing account + current results; competitive research running (task w2zbuzzuv). Confirm ownership + special-ad-category status.
 
 ## Cross-device
+- [Cross-Device Setup](cross-device-setup.md) — how phone⇄computer works (Remote Control on, memory symlinked into repo, phone-inbox loop) + what's pending (Dispatch/Desktop app, setup tool, cleanups).
 - [Phone Inbox](phone-inbox.md) — scratchpad for ideas/tasks captured on phone/web; triage into real files when back on the computer. Memory folder is live-synced into the repo (symlink), so phone sessions can read all of it.
 
 ## User Preferences
