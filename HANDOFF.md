@@ -2,7 +2,9 @@
 
 **Purpose:** This file lets a fresh Claude session (on your phone/web at claude.ai/code, or a new VS Code window) pick up strategy work on Wavecrest without the context that normally lives in Claude's local memory.
 
-**Why it exists:** Claude's rich project memory (client campaign states, etc.) is stored under `~/.claude/` on the laptop — it is **NOT in this repo**, so a cloud/phone session can't see it. This file mirrors the essentials so remote sessions aren't blind.
+**Full memory is now in the repo.** The laptop's Claude memory folder is live-synced into this repo at [`memory/`](memory/) via a symlink, so phone/web sessions can read the *complete* project context — not just this summary. Start a phone session with: *"Read memory/MEMORY.md and let's strategize."*
+
+**Capturing ideas on the go:** jot them into [`memory/phone-inbox.md`](memory/phone-inbox.md) and push. When back at the computer, `git pull` and triage them into the right files. (Phone writes only to the inbox to avoid merge conflicts with the laptop's auto-writes.)
 
 > Keep this file updated when major state changes. Ask Claude: *"update HANDOFF.md with where we are."*
 
