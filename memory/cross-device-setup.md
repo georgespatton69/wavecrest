@@ -1,6 +1,6 @@
 ---
 name: cross-device-setup
-description: How the user works with Claude across phone + computer for this repo — Remote Control, phone-inbox memory loop, and what's still pending (Dispatch).
+description: How the user works with Claude across phone + computer for this repo — Remote Control, Dispatch (phone→computer, working), and the phone-inbox memory loop.
 metadata:
   type: project
 ---
@@ -20,7 +20,7 @@ Set up 2026-09-07/08 so the user can capture ideas + drive work from their phone
 
 ## Key facts learned (verified vs code.claude.com docs)
 - **Remote Control** = drive an EXISTING VS Code/CLI session from phone. Session must stay running (don't quit VS Code). Works now.
-- **Dispatch** = spawn a NEW session from phone — **Desktop app ONLY**, not VS Code. New session shows in Desktop app's Code tab (Dispatch badge), NOT as a VS Code tab. Needs Pro/Max plan.
+- **Dispatch** = spawn a NEW session from phone — **Desktop app ONLY**, not VS Code. New session shows in Desktop app's Code tab (Dispatch badge), NOT as a VS Code tab. Needs Pro/Max plan. **For a phone Dispatch to run, the Desktop app must be OPEN and the Mac AWAKE** (screen may sleep; system must not — `pmset sleep 0` on AC handles this).
 - **Background sessions / agent view** (`claude --bg`, `claude agents`) = local parallelism via CLI. NOT phone-related; not what the user wants.
 - Phone-inbox capture only works in a **Code chat** (connected to repo), NOT a normal Claude chat. In a Remote-Control session it saves straight to memory; in a cloud Code session it writes phone-inbox.md + pushes.
 
