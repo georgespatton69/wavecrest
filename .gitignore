@@ -15,3 +15,6 @@ data/uploads/
 __pycache__/
 *.pyc
 .venv/
+
+# Personal Claude Code settings (hooks, local overrides)
+.claude/settings.local.json
