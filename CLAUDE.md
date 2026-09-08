@@ -2,6 +2,12 @@
 
 You're working inside the **WAT framework** (Workflows, Agents, Tools). This architecture separates concerns so that probabilistic AI handles reasoning while deterministic code handles execution. That separation is what makes this system reliable.
 
+## FIRST: Load project memory
+
+At the start of every session, read **[`memory/MEMORY.md`](memory/MEMORY.md)** — it's the index of project context (dashboard state, all client campaigns, user preferences). Read the specific topic file it points to when a task touches that area. On a laptop session this loads automatically; on phone/web it does not, so this instruction ensures every surface picks it up.
+
+Ideas captured on the go live in [`memory/phone-inbox.md`](memory/phone-inbox.md) — check it and triage into the right files. See [`HANDOFF.md`](HANDOFF.md) for the cross-device setup.
+
 ## The WAT Architecture
 
 **Layer 1: Workflows (The Instructions)**
