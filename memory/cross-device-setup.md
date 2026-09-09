@@ -24,6 +24,11 @@ Set up 2026-09-07/08 so the user can capture ideas + drive work from their phone
 - **Background sessions / agent view** (`claude --bg`, `claude agents`) = local parallelism via CLI. NOT phone-related; not what the user wants.
 - Phone-inbox capture only works in a **Code chat** (connected to repo), NOT a normal Claude chat. In a Remote-Control session it saves straight to memory; in a cloud Code session it writes phone-inbox.md + pushes.
 
+## Google access (for remote sessions)
+- **Gmail + Google Drive + Calendar** = claude.ai **connectors** (account-level, work in ANY session incl. Dispatch/Remote Control). Confirmed working 2026-09-08. Connected Google acct = `robbyhoffman4@gmail.com` (Claude login is georges.patton69@gmail.com).
+- **Tokens EXPIRE periodically** → if a session says "requires re-authorization," reconnect at **claude.ai → Settings → Connectors** (do it from a browser, not phone). Not avoidable — it's OAuth.
+- **Sheets (full editing)** is NOT a connector — it's local WAT Python tools + `credentials.json`/`token.json`. **Alpine Pressure has it** (build_seller_sheet.py etc.); **Wavecrest does NOT** (no creds, no Sheets tools) — set up if user wants Sheets there.
+
 ## Pending (resume here)
 1. **Build `tools/setup_cross_device.sh`** — one-command setup (symlink memory + phone-inbox + hook) so future projects are trivial. User approved building it "for later." (Note: this is the memory/inbox loop, separate from Dispatch project registration which is done per-project in the Desktop app.)
 2. Delete `memory.bak` backup once phone loop confirmed.
