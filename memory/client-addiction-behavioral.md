@@ -103,3 +103,4 @@ User chose to build this in its OWN new Business portfolio (NOT inside the exist
 
 ### History
 - 2026-08-18: Portfolio created → auto-restricted at creation (automation-integrity, "automation mimics human activity"). Appeal "Request review" submitted same day. Cleared 8/19.
+- **2026-09-08: Meta advertiser verification prompted on the ABH account** ("Act now — Verification may be required soon… avoid future ad disruptions"; "Verify yourself or an organization"). **User chose "Verify yourself" (government ID + selfie)** — the fast route — NOT "Verify an organization" (which needs entity record + business-domain-email link). ID submitted 9/08. Tradeoff accepted: the personal verified name may show publicly in Ad Library. See [[meta-ads-client-work]] for the general playbook (the same prompt is hitting ALL the accounts, due soon; do them one at a time — rapid identity steps across accounts on this login have tripped a security lock before).
