@@ -2226,6 +2226,19 @@
       "content_theme": null,
       "notes": null,
       "is_notable": 0
+    },
+    {
+      "competitor_id": 2,
+      "post_url": "https://www.instagram.com/p/DfIFE_UM-JU/",
+      "posted_at": "2026-10-30T17:06:58",
+      "content_type": "image",
+      "caption_snippet": "One quick call. A few questions. A better understanding of rehab coverage.\n\nA simple phone call to admissions helps clarify insurance benefits for drug and alcohol addiction treatment.\n\nBefore contact",
+      "likes": 82,
+      "comments": 0,
+      "estimated_engagement_rate": 0.0215,
+      "content_theme": null,
+      "notes": null,
+      "is_notable": 0
     }
   ]
 }
